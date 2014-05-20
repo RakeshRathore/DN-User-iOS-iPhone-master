@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B1B7791A-2E48-4D0C-9C48-28DA914CA3C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Discount</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF6115B4-9C1E-4A6E-A449-8ACDC9813450</key>
+		<string>ssh://github.com/AcapellaMedia/DN-User-iOS-iPhone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Discount.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF6115B4-9C1E-4A6E-A449-8ACDC9813450</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/AcapellaMedia/DN-User-iOS-iPhone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF6115B4-9C1E-4A6E-A449-8ACDC9813450</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF6115B4-9C1E-4A6E-A449-8ACDC9813450</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Discount_02_05</string>
+		</dict>
+	</array>
+</dict>
+</plist>

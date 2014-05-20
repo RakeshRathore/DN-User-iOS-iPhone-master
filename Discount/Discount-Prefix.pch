@@ -1,0 +1,82 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "Global.h"
+#import "Loading.h"
+//#import "LocationManager.h"
+#import "UIViewController+Touches.h"
+#import "UIScrollView+Touches.h"
+#import "SocialKit.h"
+#import "JSON.h"
+
+#import "AppDelegate.h"
+static NSInteger unselectedRow = -1;
+
+#define MAIN_URL @"http://discountnow.herokuapp.com/api"
+#define appName @"Discount"
+
+#define FACEBOOK_APP_ID @"423815801054568" // local
+
+#define APP_ID @"com.production.dnow"  // production
+
+
+#define TOPBAR_BG_COLOR RGB(1, 144, 200)
+
+#define STATUS_BAR_COLOR TOPBAR_BG_COLOR
+
+#define VIEW_BG_COLOR RGB(244, 243, 237)
+
+#define DETAIL_BG_COLOR RGB(21, 25, 36);
+
+#define MY_APP_DELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define STRETCH_IMAGE(imageName,leftCap,topCap) [[UIImage imageNamed:imageName] stretchableImageWithLeftCapWidth:leftCap topCapHeight:topCap]
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending
+
+// FONT
+
+#define ARIAL(x) [UIFont fontWithName:@"Arial" size:x]
+#define ARIAL_BOLD(x) [UIFont fontWithName:@"Arial-BoldMT" size:x]
+
+#define LATO_REGULAR(x) [UIFont fontWithName:@"Lato-Regular" size:x]
+#define LATO_BOLD(x) [UIFont fontWithName:@"Lato-Bold" size:x]
+#define LATO_LIGHT(x) [UIFont fontWithName:@"Lato-Light" size:x]
+#define LATO_ITALIC(x) [UIFont fontWithName:@"Lato-Italic" size:x]
+#define LATO_BLACK(x) [UIFont fontWithName:@"Lato-Black" size:x]
+#define LATO_HAIRLINE(x) [UIFont fontWithName:@"Lato-Hairline" size:x]
+#define LATO_BOLD_ITALIC(x) [UIFont fontWithName:@"Lato-BoldItalic" size:x]
+#define LATO_BLACK_ITALIC(x) [UIFont fontWithName:@"Lato-BlackItalic" size:x]
+#define LATO_HAIRLINE_ITALIC(x) [UIFont fontWithName:@"Lato-HairlineItalic" size:x]
+#define LATO_LIGHT_ITALIC(x) [UIFont fontWithName:@"Lato-LightItalic" size:x]
+
+
+// Color
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(...) do { } while (0)
+#endif
+

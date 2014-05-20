@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="152" id="7XT-i1-q1Z" customClass="ListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7XT-i1-q1Z" id="T09-7K-v97">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="YsC-vX-hPE" userLabel="Cell view">
+                        <rect key="frame" x="-194" y="0.0" width="514" height="151"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="sample2.jpg" id="LtY-uU-SHK" userLabel="Item Picture">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_shade_big.png" id="SNf-F9-xNB" userLabel="BG Shade">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Speedy oil change" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="teL-ZY-xau" userLabel="Item Title">
+                                <rect key="frame" x="73" y="94" width="243" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="$30 for $50 65% off at Motors" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e1F-sQ-wdy" userLabel="Item Description">
+                                <rect key="frame" x="73" y="113" width="193" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" id="3so-NZ-iT2" userLabel="time img">
+                                <rect key="frame" x="256" y="7" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flash.png" id="UrE-RR-Pq9" userLabel="flash img">
+                                <rect key="frame" x="300" y="121" width="13" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorite_white.png" id="X8Z-kh-vKQ" userLabel="favorite img">
+                                <rect key="frame" x="278" y="121" width="16" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="12d-cR-rGy" userLabel="Days lbl">
+                                <rect key="frame" x="274" y="3" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" id="QQh-Ln-ztw" userLabel="Price Lbl">
+                                <rect key="frame" x="8" y="99" width="57" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_automative.png" id="ZRo-zM-YG5" userLabel="Category Pic">
+                                <rect key="frame" x="8" y="6" width="31" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dibbd.png" id="zDa-ma-gbD">
+                                <rect key="frame" x="-51" y="25" width="172" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="cUY-eU-C7e" userLabel="Option view">
+                                <rect key="frame" x="320" y="0.0" width="194" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y8n-SD-DDq">
+                                        <rect key="frame" x="0.0" y="0.0" width="97" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="favorite.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uOs-WA-JIb">
+                                        <rect key="frame" x="97" y="0.0" width="97" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="dibs">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bat-7n-Zq5">
+                                        <rect key="frame" x="0.0" y="76" width="97" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="cell_map.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bpk-gR-yQx">
+                                        <rect key="frame" x="97" y="76" width="97" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="share.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bAe-zT-tdR">
+                                        <rect key="frame" x="97" y="0.0" width="1" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.1968813687" blue="0.18509166269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yMk-6p-WQG">
+                                        <rect key="frame" x="1" y="75" width="193" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1215686351" green="0.32549020649999999" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IL2-pI-SxN">
+                                <rect key="frame" x="269" y="0.0" width="51" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="33" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="cell_arrow_left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="captureBtn" destination="uOs-WA-JIb" id="z24-Ky-zn9"/>
+                <outlet property="categoryPic" destination="ZRo-zM-YG5" id="0Dn-09-3Vz"/>
+                <outlet property="cellView" destination="YsC-vX-hPE" id="gdk-T8-sCg"/>
+                <outlet property="daysLbl" destination="12d-cR-rGy" id="gcQ-8v-U4J"/>
+                <outlet property="dibbImg" destination="zDa-ma-gbD" id="Tvv-PZ-zxx"/>
+                <outlet property="favoriteBtn" destination="y8n-SD-DDq" id="hBR-uV-hqX"/>
+                <outlet property="favoriteImg" destination="X8Z-kh-vKQ" id="UGF-FK-vbx"/>
+                <outlet property="flashImg" destination="UrE-RR-Pq9" id="D3X-JL-j1A"/>
+                <outlet property="itemDesLbl" destination="e1F-sQ-wdy" id="9vP-A8-mmg"/>
+                <outlet property="itemPic" destination="LtY-uU-SHK" id="brh-eN-iGg"/>
+                <outlet property="itemTitleLbl" destination="teL-ZY-xau" id="Q7h-Vd-TYb"/>
+                <outlet property="lineHor" destination="yMk-6p-WQG" id="0Ud-Hg-RLb"/>
+                <outlet property="lineVer" destination="bAe-zT-tdR" id="YAW-Kc-YdH"/>
+                <outlet property="mapBtn" destination="bat-7n-Zq5" id="wsf-pu-5wn"/>
+                <outlet property="optionBtn" destination="IL2-pI-SxN" id="Sc3-jY-Yjg"/>
+                <outlet property="optionView" destination="cUY-eU-C7e" id="y5c-a4-4X3"/>
+                <outlet property="priceLbl" destination="QQh-Ln-ztw" id="JWM-Kx-k6p"/>
+                <outlet property="shareBtn" destination="bpk-gR-yQx" id="kpy-x6-eOj"/>
+                <outlet property="timeImg" destination="3so-NZ-iT2" id="0aq-cK-1xj"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_shade_big.png" width="640" height="303"/>
+        <image name="cell_arrow_left.png" width="19" height="27"/>
+        <image name="cell_map.png" width="21" height="29"/>
+        <image name="clock.png" width="27" height="27"/>
+        <image name="dibbd.png" width="64" height="41"/>
+        <image name="favorite.png" width="28" height="25"/>
+        <image name="favorite_white.png" width="32" height="29"/>
+        <image name="flash.png" width="36" height="47"/>
+        <image name="menu_automative.png" width="20" height="17"/>
+        <image name="sample2.jpg" width="450" height="300"/>
+        <image name="share.png" width="18" height="26"/>
+    </resources>
+</document>
